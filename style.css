@@ -90,6 +90,7 @@ nav > button:hover{
         width: 1140px;
         background: rgba(13, 19, 33, 0.02);
         margin: 0 auto;
+        padding-bottom: 40px;
 }
 
 
@@ -161,4 +162,28 @@ nav > button:hover{
         color: black;
         border: 1px solid black;
         padding: 10px 15px;
+}
+
+/* My inspiration part start */
+
+#inspiration-container{
+        width: 1140px;
+        margin: 0 auto;
+}
+
+
+#inspiration{
+        width: 946px;
+        margin: 0 auto;
+}
+
+#jhankar-mahbub{
+        text-align: center;
+        box-sizing: border-box;
+}
+
+#jhankar-mahbub > iframe{
+        padding: 20px;
+        border: 1px solid rgba(128, 128, 128, 0.856);
+        border-radius: 10px;
 }

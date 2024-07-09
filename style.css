@@ -45,6 +45,7 @@ nav > button:hover{
         align-items: center;
         flex-direction: column;
         text-align: center;
+        margin: 0px 0px 70px;
 }
 
 .hero-area-image > img{
@@ -62,6 +63,7 @@ nav > button:hover{
 .hero-area-des > p{
         width: 850px;
         font-size: 16px;
+        line-height: 26px;
         color: rgb(112, 110, 110);
         margin-bottom: 30px;
 }
@@ -79,4 +81,84 @@ nav > button:hover{
 
 .hero-area-contact > a > button:hover{
         box-shadow: 4px 4px 10px gray;
+}
+
+
+/* 1st section start here */
+
+.info-container{
+        width: 1140px;
+        background: rgba(13, 19, 33, 0.02);
+        margin: 0 auto;
+}
+
+
+#container-div{
+        width: 946px;
+        margin: 0 auto;
+        padding-top: 40px;
+        
+}
+
+.ques-container{
+        text-align: center;
+        padding: 40px;
+}
+
+.ques-container > h2{
+        font-size: 32px;
+        font-weight: 800;
+        padding-bottom: 20px;
+}
+
+.ques-container > p{
+        color: rgb(112, 110, 110);
+        font-size: 16px;
+        line-height: 26px;
+}
+
+.success-container{
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 48px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        }
+
+.success-container:nth-child(even){
+        background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0.11));
+}
+
+.success-container:nth-child(odd){
+        background-image: linear-gradient(to left, white, rgba(255, 255, 255, 0.11));
+}
+
+.success-ques{
+        width: 570px;
+        box-sizing: border-box;
+        
+}
+
+.success-ques > h3{
+        font-size: 24px;
+        font-weight: 700;
+        color: rgba(13, 19, 33, 0.7);
+        line-height: 36px;
+        margin-bottom: 16px;
+}
+
+.success-ques > p{
+        font-size: 16px;
+        line-height: 26px;
+        text-align: justify;
+        margin: 0px 150px 36px 0px;
+        
+}
+
+.success-ques > a{
+        text-decoration: none;
+        color: black;
+        border: 1px solid black;
+        padding: 10px 15px;
 }

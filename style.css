@@ -196,13 +196,11 @@ nav > button:hover{
 #target-container{
         width: 1140px;
         margin: 0 auto;
-        border: 2px solid red;
 }
 
 .all-skill{
         display: flex;
         justify-content: space-between;
-        
 }
 
 .target-skill{

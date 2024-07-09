@@ -151,9 +151,12 @@ nav > button:hover{
 
 .success-ques > p{
         font-size: 16px;
+        color: rgb(112, 110, 110);
         line-height: 26px;
         text-align: justify;
         margin: 0px 150px 36px 0px;
+        font-weight: 400;
+        line-height: 26px;
         
 }
 
@@ -168,13 +171,13 @@ nav > button:hover{
 
 #inspiration-container{
         width: 1140px;
-        margin: 0 auto;
+        margin: 0px auto 40px;
 }
 
 
 #inspiration{
         width: 946px;
-        margin: 0 auto;
+        margin: 50px auto 0;
 }
 
 #jhankar-mahbub{
@@ -186,4 +189,61 @@ nav > button:hover{
         padding: 20px;
         border: 1px solid rgba(128, 128, 128, 0.856);
         border-radius: 10px;
+}
+
+/* My Current Target Start */
+
+#target-container{
+        width: 1140px;
+        margin: 0 auto;
+        border: 2px solid red;
+}
+
+.all-skill{
+        display: flex;
+        justify-content: space-between;
+        
+}
+
+.target-skill{
+        width: 364px;
+        height: 300px;
+        box-sizing: border-box;
+        padding: 40px;
+        border-radius: 20px;
+}
+
+.target-skill:nth-child(1){
+        background: rgba(255, 76, 30, 0.05);
+}
+
+.target-skill:nth-child(2){
+        background: rgba(0, 76, 232, 0.05);
+}
+
+.target-skill:nth-child(3){
+        background: rgba(255, 223, 0, 0.05);
+}
+
+
+.target-skill > h3{
+        font-size: 24px;
+        font-weight: 800;
+        margin: 20px 0px 10px;
+}
+
+.target-skill > p{
+        font-size: 16px;
+        color: rgb(112, 110, 110);
+        line-height: 26px;
+        text-align: left;
+        line-height: 26px;
+        margin-bottom: 20px;
+}
+
+.target-skill > a{
+        font-size: 16px;
+        font-weight: 700;
+        color: black;
+        
 }

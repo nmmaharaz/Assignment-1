@@ -6,7 +6,7 @@
 
 nav{
         display: flex;
-        max-width: 1488px;
+        max-width: 1530px;
         justify-content: space-between;
         align-items: center;
         padding: 20px 80px;
@@ -35,7 +35,7 @@ nav > button:hover{
 
 
 .hero-area{
-        max-width: 1488px;
+        max-width: 1530px;
         height: 652px;
         background-image: url(assets/Hero-bg.png);
         background-repeat: no-repeat;
@@ -47,6 +47,7 @@ nav > button:hover{
         flex-direction: column;
         text-align: center;
         margin: 0px 0px 70px;
+        border: 2px solid red;
 }
 
 .hero-area-image > img{
@@ -358,7 +359,7 @@ nav > button:hover{
 /* Footer Section Start */
 
 footer{
-        max-width: 1488px;
+        max-width: 1530px;
         background: #FAFAFB;
         padding: 31px;
 }

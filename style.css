@@ -47,7 +47,6 @@ nav > button:hover{
         flex-direction: column;
         text-align: center;
         margin: 0px 0px 70px;
-        border: 2px solid red;
 }
 
 .hero-area-image > img{

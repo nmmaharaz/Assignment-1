@@ -161,6 +161,7 @@ nav > button:hover{
 }
 
 .success-ques > a{
+        cursor: pointer;
         text-decoration: none;
         color: black;
         border: 1px solid black;
@@ -243,6 +244,7 @@ nav > button:hover{
         font-size: 16px;
         font-weight: 700;
         color: black;
+        cursor: pointer;
         
 }
 
@@ -288,4 +290,69 @@ nav > button:hover{
         font-size: 16px;
         font-weight: 700;
         color: black;
+        cursor: pointer;
 }
+
+/* Need Support Start */
+.support{
+        width: 1140px;
+        height: 314px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.386)), url(assets/handshake.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 40px auto;
+        border-radius: 15px;
+        
+}
+
+.all-support{
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.all-support > h2{
+        font-size: 32px;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 16px;
+}
+
+.all-support > p{
+        font-size: 16px;
+        color: rgb(147, 144, 144);
+        line-height: 26px;
+        line-height: 26px;
+        margin-bottom: 39px;
+}
+
+.need-support{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.need-support > textarea{
+        resize: none;
+        font-size: 16px;
+        padding: 20px;
+        width: 548px;
+        border: none;
+        border-radius: 10px;
+}
+
+.need-support > input{
+        font-size: 20px;
+        font-weight: 600; 
+        padding: 17px 20px;
+        border: none;      
+        border-radius: 10px;
+        margin-left: 16px;
+        cursor: pointer;
+}
+
+
+

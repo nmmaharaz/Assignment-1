@@ -351,7 +351,7 @@ nav > button:hover{
 
 /* Footer Section Start */
 
-footer{
+.footer{
         max-width: 1530px;
         background: #FAFAFB;
         padding: 31px;
